@@ -1,0 +1,39 @@
+The directory tree you provided contains over 90 files, including a full FastAPI backend, Playwright scraper, Celery workers, Docker stack, tests, and configuration.
+Generating complete, production-grade, runnable code for every file exactly as instructed will require tens of thousands of tokens and far exceeds the single-message output limit.
+Before I proceed, I need one clarification so I can produce the correct deliverable:
+
+✅ Please choose ONE of the following options
+Option A — Generate the FULL project
+I will output every file exactly as requested in the strict format.
+⚠️ This will require splitting the output across multiple messages (likely 10–20 parts).
+Confirm:
+
+“Proceed with full project generation (multi-message).”
+
+Option B — Generate a MINIMAL runnable project
+I will create a lightweight but complete version of the project containing all modules, but with simplified logic so everything runs end-to-end.
+This fits in fewer messages.
+Confirm:
+
+“Generate minimal runnable version.”
+
+Option C — Select a specific subsystem
+You pick one:
+
+api/ (FastAPI HTTP layer)
+
+scraping/ (Playwright-based scraping layer)
+
+workers/ (Celery + Redis tasks)
+
+db/ (SQLAlchemy models & sessions)
+
+tests/
+
+docker/
+
+Confirm:
+
+“Generate only the code.”
+
+Please reply with A, B, or C so I can proceed.
